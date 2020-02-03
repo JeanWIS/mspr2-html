@@ -3,15 +3,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport"
-    content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title><?php echo isset($title) ? $title : 'Page with no title ;( ' ; ?></title>
+    <title><?php echo isset($title) ? $title : 'Page with no title' ; ?></title>
     <link rel="stylesheet" href="public/css/app.css">
 </head>
 <body>
 
 <header>
     <nav>
+        <a class="site-logo" href="/"><img src="public/images/logo.png" alt="Logo" ></a>
+
         <ul id="navig">
             <li id="image1"><a href="index.html">Accueil</a></li>
             <li><a href="#">Article 1</a></li>
@@ -20,4 +22,3 @@
     </nav>
 </header>
 
-    
