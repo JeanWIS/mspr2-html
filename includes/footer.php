@@ -1,5 +1,7 @@
 <footer>
-    <div>Copyright Laura Theme. All rights Reserved - Designed by Jean</div>
+    <div>
+        Jean, Tous droits réservés © 2020 | <a href="terms-conditions.php"> Conditions générales</a>
+    </div>
 </footer>
 </body>
 </html>
