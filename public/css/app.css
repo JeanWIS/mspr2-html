@@ -52,3 +52,15 @@ nav ul li:hover a {
   color: grey;
   transition: all ease 0.3s;
 }
+
+* {
+  box-sizing: border-box;
+  text-decoration: none;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Consolas, serif;
+}
