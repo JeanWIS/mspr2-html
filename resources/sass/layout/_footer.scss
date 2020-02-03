@@ -1,14 +1,12 @@
-$footerBackground: red;
-
-
 footer{
+    margin-top: 200px;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-    background-color: #ff0000;
-    padding: 1% 5%;
+    background-color: #2fff25;
+    padding: 1% 50%;
 }
 footer div{
-    color: red;
+    color: #5782ff;
 }
 

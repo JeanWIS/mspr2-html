@@ -10,4 +10,14 @@
 </head>
 <body>
 
+<header>
+    <nav>
+        <ul id="navig">
+            <li id="image1"><a href="index.html">Accueil</a></li>
+            <li><a href="#">Article 1</a></li>
+            <li><a href="#">Article 2</a></li>
+        </ul>
+    </nav>
+</header>
+
     
