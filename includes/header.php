@@ -11,6 +11,9 @@
 <body>
 
 <header>
+    <div class container>
+        <h1 class="VOCALLY"><a href="index.html"> Br<span>a</span>nd</a></h1>
+    </div>
     <nav>
         <a class="site-logo" href="/"><img src="public/images/logo.png" alt="Logo" ></a>
 
@@ -18,7 +21,10 @@
             <li id="image1"><a href="index.html">Accueil</a></li>
             <li><a href="#">Article 1</a></li>
             <li><a href="#">Article 2</a></li>
+            <li><a href="#" >Article 3</a></li>
         </ul>
     </nav>
 </header>
+</body>
+
 
