@@ -13,3 +13,57 @@ body {
 p {
   font-size: $myFontSize;
 }
+
+
+#jumbotron {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: $secondary;
+  background-color: $primary;
+  height: 700px;
+  font: $myFont;
+}
+
+.text1 {
+  width: 50%;
+  margin-left: 40px;
+  margin-right: 20px;
+}
+
+.companies {
+  margin: 40px;
+  background-color: $dark;
+  color: $light;
+  height: 400px;
+}
+
+.companies h2 {
+  text-align: center;
+  padding-bottom: 20px;
+  padding-top: 40px
+}
+
+.testimonials {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: $secondary;
+  color: $light;
+  height: 400px;
+}
+
+.testimonials .text1 {
+  font-size: 28px;
+  width: 100%;
+}
+
+.testimonials img {
+  border-radius: 400px;
+  width: 30%;
+  margin-left: 20%;
+}
+
+.block {
+  
+}
