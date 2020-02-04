@@ -18,12 +18,13 @@
         <h1 class="VOCALLY"><a href="#"></h1>
     </div>
     <nav>
-        <a class="site-logo" href="/"> <img src="public/images/logo.png" alt="Logo" ></a>
+        <a class="site-logo" href="/mspr2-html"> <img src="public/images/logo.png" alt="Logo" ></a>
         <ul id="navig">
-            <li id="image1"><a href="#">Accueil</a></li>
-            <li><a href="#">Article 1</a></li>
-            <li><a href="#">Article 2</a></li>
-            <li><a href="#" >Article 3</a></li>
+            <li id="image1"><a href="/mspr2-html">Accueil</a></li>
+            <li><a href="contact.php">Article 1</a></li>
+            <li><a href="contact.php">Article 1</a></li>
+            <li><a href="contact.php">Article 1</a></li>
+            <li><a href="contact.php">Contact us</a></li>
         </ul>
     </nav>
 </header>

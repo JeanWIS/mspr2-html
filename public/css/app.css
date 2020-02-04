@@ -2851,9 +2851,10 @@ p {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  width: 100vw;
   color: #5FCCD6;
   background-color: #000949;
-  height: 700px;
+  height: 800px;
   font: Helvetica, sans-serif;
 }
 
@@ -2894,27 +2895,6 @@ p {
   border-radius: 400px;
   width: 30%;
   margin-left: 20%;
-}
-
-#jumbotron {
-  display: flex;
-  width: 100vw;
-  height: 100vh;
-  background-size: cover;
-  align-items: center;
-  justify-content: flex-start;
-  background-color: #2E2E2E;
-}
-
-#testt {
-  font-size: 50px;
-  font-family: Helvetica, sans-serif;
-  color: #5FCCD6;
-  display: flex;
-}
-
-.br {
-  margin-bottom: 200;
 }
 
 .section {

@@ -58,21 +58,69 @@
 
 
 <section class="section"></section>
-
-
-<div class="grid-2" style="justify-items: center; font-size: 20px; "> <!-- parent div (ou autre) de 3 colonnes -->
-    <div style="width: 80%">
-        <h2><strong>Des conversations de qualité </strong> </h2>
+<div class="grid-2" style=" justify-items: center;
+  font-size: 20px;"> <!-- 2 colonnes  -->
+    <div style="width: 80%; ">
+        <h2><strong>Des conversations de qualité </strong></h2>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
         dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
         ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
         eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
         deserunt mollit anim id est laborum
     </div>
-    <img src="public/images/pict1.png" style="width: 50%" >
+    <img src="public/images/pic1.png" style="width: 50%">
+
+</div><section class="section"></section>
+<div class="grid-2" style="
+  justify-items: center;
+  font-size: 20px;"> <!-- 2 colonnes  -->
+    <div style="width: 80%; ">
+        <h2><strong>Un large choix de langues </strong></h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum
+    </div>
+    <img src="public/images/pic2.png" style="width: 50%">
 </div>
 
+</div><section class="section"></section>
+<div class="grid-2" style="
+  justify-items: center;
+  font-size: 20px;"> <!-- 2 colonnes  -->
+    <div style="width: 80%; ">
+        <h2><strong>Des traductions instantanées </strong></h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum
+    </div>
+    <img src="public/images/pic3.png" style="width: 50%">
 
+
+</div>
+</div>
+
+<section class="section"></section>
+
+<div class="grid-2" style=" justify-items: center; font-size: 20px;"> <!-- 2 colonnes  -->
+    <div style="width: 80%; ">
+        <h2><strong>Un design à couper le soufle </strong></h2>
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+        dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
+        ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
+        eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+        deserunt mollit anim id est laborum
+    </div>
+    <img src="public/images/pic4.png" style="width: 50%">
+</div>
+
+<section class="section"></section>
+<div style="width: 10%" class="center">
+    <input class="btn--warning" type="button" role="button" value="En savoir plus">
+</div>
 
 
 <?php include_once 'includes/footer.php'; ?>
