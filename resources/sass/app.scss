@@ -5,9 +5,14 @@
 @import "layout/footer";
 @import "layout/header";
 @import "layout/main";
+@import "layout/cta";
+
+@import "components/backgroundcolor";
 
 @import "pages/home";
 @import "pages/contact_us";
 @import "pages/about";
+@import "pages/blog";
+@import "pages/terms";
 
 @import "components/section";

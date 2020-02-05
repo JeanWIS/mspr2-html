@@ -2693,7 +2693,6 @@ button:focus {
 }
 
 footer {
-  margin-top: 200px;
   display: flex;
   justify-content: flex-end;
   align-items: center;
@@ -2713,7 +2712,7 @@ footer div {
 
 html {
   font-size: 10px;
-  font-family: "Roboto Cn", sans-serif;
+  font-family: "nimbus-sans-condensed", sans-serif;
 }
 
 a {
@@ -2740,17 +2739,6 @@ nav {
   align-items: center;
   text-transform: uppercase;
   font-size: 1.6rem;
-}
-
-.VOCALLY {
-  font-size: 3rem;
-  font-weight: 300;
-  transformation: translateX(-100rem);
-  animation: slideIn 0.5s forwards;
-}
-
-.VOCALLY span {
-  color: crimson;
 }
 
 /*Nav bar*/
@@ -2805,7 +2793,7 @@ nav ul li a::after {
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: crimson;
+  background-color: #5FCCD6;
   left: 0;
   transform: scaleX(0);
   transition: all 5s;
@@ -2844,7 +2832,26 @@ body {
 }
 
 p {
-  font-size: 50px;
+  font-size: 20px;
+}
+
+.jumbotronblog {
+  margin-top: 100px;
+  height: 200px;
+  width: 100%;
+  background-color: black;
+}
+
+.blogimage {
+  width: 50%;
+  height: 100%;
+  border-radius: 200px;
+  font-size: 20px;
+}
+
+.bg {
+  background: #5FCCD6;
+  box-sizing: border-box;
 }
 
 #jumbotron {
@@ -2902,6 +2909,317 @@ p {
   color: #bb1111;
 }
 
+.blog-container {
+  background: #fff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+  font-family: "adelle-sans", sans-serif;
+  font-weight: 100;
+  margin: 48px auto;
+  width: 20rem;
+}
+@media screen and (min-width: 480px) {
+  .blog-container {
+    width: 28rem;
+  }
+}
+@media screen and (min-width: 767px) {
+  .blog-container {
+    width: 40rem;
+  }
+}
+@media screen and (min-width: 959px) {
+  .blog-container {
+    width: 50rem;
+  }
+}
+
+.blog-container a {
+  color: #5FCCD6;
+  text-decoration: none;
+  transition: 0.25s ease;
+}
+.blog-container a:hover {
+  border-color: #5FCCD6;
+  color: #5FCCD6;
+}
+
+.blog-cover {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/yosemite-3.jpg");
+  background-size: cover;
+  border-radius: 5px 5px 0 0;
+  height: 15rem;
+  box-shadow: inset rgba(0, 0, 0, 0.2) 0 64px 64px 16px;
+}
+
+.blog-author,
+.blog-author--no-cover {
+  margin: 0 auto;
+  padding-top: 0.125rem;
+  width: 80%;
+}
+
+.blog-author h3::before,
+.blog-author--no-cover h3::before {
+  background: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/17779/russ.jpeg");
+  background-size: cover;
+  border-radius: 50%;
+  content: " ";
+  display: inline-block;
+  height: 32px;
+  margin-right: 0.5rem;
+  position: relative;
+  top: 8px;
+  width: 32px;
+}
+
+.blog-author h3 {
+  color: #fff;
+  font-weight: 100;
+}
+
+.blog-author--no-cover h3 {
+  color: #999999;
+  font-weight: 100;
+}
+
+.blog-body {
+  margin: 0 auto;
+  width: 80%;
+}
+
+.video-body {
+  height: 100%;
+  width: 100%;
+}
+
+.blog-title h1 a {
+  color: #333;
+  font-weight: 100;
+}
+
+.blog-summary p {
+  color: #4d4d4d;
+}
+
+.blog-tags ul {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  list-style: none;
+  padding-left: 0;
+}
+
+.blog-tags li + li {
+  margin-left: 0.5rem;
+}
+
+.blog-tags a {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  color: #999999;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  line-height: 1.5rem;
+  letter-spacing: 1px;
+  padding: 0 0.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  white-space: nowrap;
+  width: 5rem;
+}
+
+.blog-footer {
+  border-top: 1px solid #e6e6e6;
+  margin: 0 auto;
+  padding-bottom: 0.125rem;
+  width: 80%;
+}
+
+.blog-footer ul {
+  list-style: none;
+  display: flex;
+  flex: row wrap;
+  justify-content: flex-end;
+  padding-left: 0;
+}
+
+.blog-footer li:first-child {
+  margin-right: auto;
+}
+
+.blog-footer li + li {
+  margin-left: 0.5rem;
+}
+
+.blog-footer li {
+  color: #999999;
+  font-size: 0.75rem;
+  height: 1.5rem;
+  letter-spacing: 1px;
+  line-height: 1.5rem;
+  text-align: center;
+  text-transform: uppercase;
+  position: relative;
+  white-space: nowrap;
+}
+.blog-footer li a {
+  color: #999999;
+}
+
+.comments {
+  margin-right: 1rem;
+}
+
+.published-date {
+  border: 1px solid #999999;
+  border-radius: 3px;
+  padding: 0 0.5rem;
+}
+
+.numero {
+  position: relative;
+  top: -0.5rem;
+}
+
+.icon-star,
+.icon-bubble {
+  fill: #999999;
+  height: 24px;
+  margin-right: 0.5rem;
+  transition: 0.25s ease;
+  width: 24px;
+}
+.icon-star:hover,
+.icon-bubble:hover {
+  fill: #5FCCD6;
+}
+
+section::before {
+  position: absolute;
+  top: -1.8em;
+  left: 1em;
+}
+
+.row-stuff {
+  margin-left: 2rem;
+  color: #555;
+  font-size: 1.2em;
+}
+
+/* deco */
+.global-container,
+.global {
+  position: relative;
+  width: 80% !important;
+  padding: 0.8em;
+  margin-bottom: 3em;
+  border: 0.25em dotted #000949;
+  color: #2E2E2E;
+  background-color: #fff;
+  font-size: 1.2em;
+}
+
+.outline {
+  padding: 4px;
+  border: 1px dotted olivedrab;
+}
+
+span,
+.global > div {
+  padding: 0.8em;
+  background: #5FCCD6;
+  color: #fff;
+}
+
+span {
+  display: inline-block;
+}
+
+span + span {
+  opacity: 0.8;
+}
+
+span + span + span {
+  opacity: 0.6;
+}
+
+/*
+ line safe
+ */
+/*
+you can keep it
+
+h1, h2 {
+  margin: 0 0 1em;
+  color: #345;
+  text-align: center;
+  font-family: georgia, "trebuchet ms", arial, serif !important;
+}
+h2 {
+  font-weight: normal;
+}
+*/
+.toc {
+  counter-reset: toc;
+  padding-left: 0;
+}
+
+.toc li {
+  list-style-type: none;
+  counter-increment: toc;
+  /* on incrémente le compteur à chaque nouveau li */
+  margin-bottom: 1px;
+}
+
+.toc li:before {
+  content: counter(toc);
+  /* on affiche le compteur */
+  float: left;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  margin-right: 2rem;
+  color: #fff;
+  background: rgba(0, 0, 0, 0.3);
+  border-radius: 0 0 6px 0;
+}
+
+.toc a {
+  display: block;
+  padding: 0.6rem 1rem;
+  color: #555;
+  background: #eee;
+  text-decoration: none;
+}
+
+.toc a:hover, .toc a:focus {
+  color: #555;
+  background: #ddd;
+}
+
+@media (min-width: 900px) {
+  .body_terms {
+    padding: 0 1rem 0 28%;
+  }
+
+  .main-title,
+.toc {
+    position: fixed;
+    left: 1.5rem;
+    width: 25%;
+  }
+
+  .main-title {
+    top: 1rem;
+    font-size: 3rem;
+  }
+
+  .toc {
+    top: 14rem;
+  }
+}
 .section {
   padding: 75px 0;
 }

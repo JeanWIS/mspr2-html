@@ -6,7 +6,7 @@
 
 html{
   font-size: 10px;
-  font-family: "Roboto Cn", sans-serif;
+  font-family: "nimbus-sans-condensed", sans-serif;
 }
 
 a{
@@ -34,17 +34,6 @@ nav{
   align-items: center;
   text-transform: uppercase;
   font-size: 1.6rem;
-}
-
-.VOCALLY{
-  font-size: 3rem;
-  font-weight:300;
-  transformation: translateX(-100rem);
-  animation: slideIn .5s forwards;
-}
-
-.VOCALLY span{
-  color: crimson;
 }
 
 /*Nav bar*/
@@ -93,7 +82,7 @@ nav ul li a::after{
   position: absolute;
   width: 100%;
   height: 2px;
-  background-color: crimson;
+  background-color: $secondary;
   left: 0;
   transform: scaleX(0);
   transition: all 5s;

@@ -1,7 +1,7 @@
 </main>
 <footer>
     <div>
-        Vocally, Tous droits réservés © 2020 | <a href="terms-conditions.php"> Conditions générales</a>
+        Vocally, Tous droits réservés © 2020 | <a href="terms.php"> Conditions générales</a>
     </div>
 </footer>
 </body>

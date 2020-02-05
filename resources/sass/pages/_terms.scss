@@ -1,0 +1,119 @@
+
+section::before {
+  position: absolute;
+  top: -1.8em;
+  left: 1em;
+}
+
+.row-stuff {
+  margin-left: 2rem;
+  color: #555;
+  font-size: 1.2em;
+}
+
+/* deco */
+
+body {
+  //padding: 5rem 3rem;
+}
+.global-container,
+.global {
+  position: relative;
+  width: 80% !important;
+  padding: .8em;
+  margin-bottom: 3em;
+  border: .25em dotted $primary;
+  color: $dark;
+  background-color: #fff;
+  font-size: 1.2em;
+}
+.outline {
+  padding: 4px;
+  border: 1px dotted olivedrab;
+}
+span,
+.global > div {
+  padding: .8em;
+  background: $secondary;
+  color: #fff;
+}
+span {
+  display: inline-block;
+}
+span + span {
+  opacity: .8
+}
+span + span + span {
+  opacity: .6
+}
+
+/*
+ line safe
+ */
+
+/*
+you can keep it
+
+h1, h2 {
+  margin: 0 0 1em;
+  color: #345;
+  text-align: center;
+  font-family: georgia, "trebuchet ms", arial, serif !important;
+}
+h2 {
+  font-weight: normal;
+}
+*/
+
+.toc {counter-reset: toc; padding-left: 0;}
+.toc li {
+  list-style-type: none;
+  counter-increment: toc; /* on incrémente le compteur à chaque nouveau li */
+  margin-bottom: 1px;
+}
+.toc li:before {
+  content: counter(toc); /* on affiche le compteur */
+  float: left;
+  width: 2rem;
+  height: 2rem;
+  line-height: 2rem;
+  text-align: center;
+  margin-right: 2rem;
+  color: #fff;
+  background: rgba(0,0,0,.3);
+  border-radius: 0 0 6px 0;
+}
+.toc a {
+  display: block;
+  padding: .6rem 1rem;
+  color: #555;
+  background: #eee;
+  text-decoration: none;
+}
+.toc a:hover, .toc a:focus {
+  color: #555;
+  background: #ddd;
+}
+
+
+@media (min-width: 900px) {
+  .body_terms {
+    padding: 0 1rem 0 28%;
+  }
+  .main-title,
+  .toc {
+    position: fixed;
+    left: 1.5rem;
+    width: 25%;
+  }
+  .main-title {
+    top: 1rem;
+    font-size: 3rem;
+  }
+  .toc {
+    top: 14rem;
+  }
+}
+
+
+
