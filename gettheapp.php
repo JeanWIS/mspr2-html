@@ -27,14 +27,16 @@
             </div>
             <div>
                 <h2>Des conversations de qualité</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et
-                    dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-                    aliquip
-                    ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum
-                    dolore
-                    eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum</p>
+                <p>Vocally vous propose une utilisation possible en plusieurs langues. </p>
+                <p>Sachez qu'une dysharmonie des corps astraux est une hiérarchisation entre chaque corps énergétique de
+                    nature vibratoire de bas en haut et de haut en bas, le fonctionnel, le lésionnel puis le
+                    patapsychologique.</p>
+                <p>Mais aussi bien garder à l'esprit que la programmation neuro-linguistique représente une relativité
+                    ontologique inséparable d'une relativité énonciative, au sens axiologique, et n'est possible qu'à
+                    travers la médiation de machines autopoïétiques.
+                </p>
+                <p>До свидания</p>
+
             </div>
         </div>
     </div>

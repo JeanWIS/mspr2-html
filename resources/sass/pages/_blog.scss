@@ -1,15 +1,14 @@
 
-
 // Blog container
 //-------------------------
 .blog-container {
-  background: #fff;
+  background: #ffffff;
   border-radius: 5px;
-  box-shadow: hsla(0, 0, 0, .2) 0 4px 2px -2px;
+  box-shadow: #67fff2 40px 40px 40px 0px;
   font-family: "adelle-sans", sans-serif;
   font-weight: 100;
   margin: 48px auto;
-  width: 20rem;
+  width: 200rem;
   @media screen and (min-width: 480px) {
     width: 28rem;
   }
@@ -120,7 +119,6 @@
 .blog-footer ul {
   list-style: none;
   display: flex;
-  flex: row wrap;
   justify-content: flex-end;
   padding-left: 0;
 }

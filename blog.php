@@ -1,6 +1,6 @@
 <?php include_once 'includes/header.php'; ?>
-<div class="bg">
-    <section class="section"></section>
+
+
     <svg display="none" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
         <defs>
             <symbol id="icon-bubble" viewBox="0 0 1024 1024">
@@ -83,7 +83,11 @@
             </div>
             <div class="blog-summary">
                 <p>Ils existent beaucoup d'applications proposant les mêmes services que Vocally, voci un
-                    comparatifs </p>
+                    comparatif. Ceci expliquant cela, je suis d'accord avec le fait que l'affinité vibratoire
+                    fréquentielle rectificatrice des affects émotionnels archétypiques perturbés, dont la nature humaine
+                    est ponctuellement imprégnée, vont par leur effets énergétiques vibratoires, agir sur la
+                    constitution énergétique d'un être et non sur la maladie elle-même.
+                </p>
             </div>
             <div class="blog-tags">
                 <ul>
@@ -156,8 +160,8 @@
                         <span class="numero">6</span></a></li>
             </ul>
         </div>
+
     </div>
 
     <?php include_once 'includes/footer.php'; ?>
 
-</div>

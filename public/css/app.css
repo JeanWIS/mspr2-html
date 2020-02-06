@@ -2928,14 +2928,87 @@ a {
   color: #bb1111;
 }
 
+#contact-jumbotron body {
+  color: #333;
+  font-family: "Raleway", sans-serif;
+  overflow-x: hidden;
+}
+#contact-jumbotron .faq-header {
+  font-size: 42px;
+  border-bottom: 1px dotted #ccc;
+  padding: 24px;
+}
+#contact-jumbotron .faq-content {
+  margin: 0 auto;
+}
+#contact-jumbotron .faq-question {
+  padding: 20px 0;
+  border-bottom: 1px dotted #ccc;
+}
+#contact-jumbotron .panel-title {
+  font-size: 24px;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 0 48px;
+  display: block;
+  cursor: pointer;
+}
+#contact-jumbotron .panel-content {
+  font-size: 20px;
+  padding: 0px 14px;
+  margin: 0 40px;
+  height: 0;
+  overflow: hidden;
+  z-index: -1;
+  position: relative;
+  opacity: 0;
+  transition: 0.4s ease;
+}
+#contact-jumbotron .panel:checked ~ .panel-content {
+  height: auto;
+  opacity: 1;
+  padding: 14px;
+}
+#contact-jumbotron .plus {
+  position: absolute;
+  margin-left: 20px;
+  margin-top: 4px;
+  z-index: 5;
+  font-size: 42px;
+  line-height: 100%;
+  -webkit-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  transition: 0.2s ease;
+}
+#contact-jumbotron .panel:checked ~ .plus {
+  transform: rotate(45deg);
+}
+#contact-jumbotron .panel {
+  display: none;
+}
+
+#contact-form {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 200px;
+  margin-top: 200px;
+  width: 80%;
+  height: 200px;
+  background-color: #5FCCD6;
+  border-radius: 20px;
+}
+
 .blog-container {
-  background: #fff;
+  background: #ffffff;
   border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.2) 0 4px 2px -2px;
+  box-shadow: #67fff2 40px 40px 40px 0px;
   font-family: "adelle-sans", sans-serif;
   font-weight: 100;
   margin: 48px auto;
-  width: 20rem;
+  width: 200rem;
 }
 @media screen and (min-width: 480px) {
   .blog-container {
@@ -3058,7 +3131,6 @@ a {
 .blog-footer ul {
   list-style: none;
   display: flex;
-  flex: row wrap;
   justify-content: flex-end;
   padding-left: 0;
 }
@@ -3225,6 +3297,14 @@ section::before {
 #app-icons {
   margin-bottom: 100px;
 }
+#app-icons img:hover {
+  margin: auto;
+  display: block;
+  width: 100%;
+  overflow: hidden;
+  transform: scale(0.9);
+  transition: 0.2s ease all;
+}
 
 #app-content {
   padding: 50px 0;
@@ -3246,9 +3326,6 @@ section::before {
 }
 #app-content .item img {
   max-width: 400px;
-  margin: auto;
-  display: block;
-  width: 100%;
 }
 
 .section {
