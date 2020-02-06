@@ -1,0 +1,41 @@
+#app-jumbotron {
+  padding: 100px 0;
+  h1{
+    margin-bottom: 50px;
+    text-align: center;
+  }
+}
+
+#app-icons {
+  margin-bottom: 100px;
+}
+
+#app-content {
+  padding: 50px 0;
+  margin: 20px;
+  background-color: #e6ebe7;
+  height: 500px;
+  margin-bottom: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: .2s ease all;
+
+  .item {
+    margin-bottom: 100px;
+
+    .info {
+      padding: 15px;
+    }
+
+    img {
+      max-width: 400px;
+      margin: auto;
+      display: block;
+      width: 100%;
+
+    }
+
+  }
+}

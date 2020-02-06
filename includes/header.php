@@ -18,7 +18,7 @@
             <li id="image1"><a href="/mspr2-html/">Accueil</a></li>
             <li><a href="contact.php">contact.php</a></li>
             <li><a href="blog.php">blog.php</a></li>
-            <li><a href="#" style="margin-right: 20px" >Article 3  </a></li>
+            <li><a href="gettheapp.php" style="margin-right: 20px" class="button_cta" > Télécharger l'app</a></li>
         </ul>
     </nav>
 </header>

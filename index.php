@@ -2,7 +2,7 @@
 
 <section id="home-jumbotron">   <!-- Page: Home & Name of the Section: jumbotron  -->
     <div class="container">
-        <div class="grid-2">
+        <div class="grid-2 has-gutter" >
             <div>
                 <h1>L'application qui vous permet de comuniquer avec n'importe qui</h1>
                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
@@ -13,7 +13,7 @@
                     deserunt
                     mollit anim id est laborum.
                 </p>
-                <button class="button"><span>Hover </span></button>
+                <button class="button"><span>En savoir plus  </span></button>
 
             </div>
             <img src="public/images/discussion.jpg">

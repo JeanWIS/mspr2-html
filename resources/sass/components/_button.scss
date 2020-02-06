@@ -1,12 +1,12 @@
 .button {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: $secondary;
   border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 200px;
+  width: 250px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -35,4 +35,15 @@
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.button_cta {
+  background-color: $secondary;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  width: 50px;
+  padding: 20px;
+
+
 }

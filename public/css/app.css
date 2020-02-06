@@ -2833,13 +2833,13 @@ a {
 
 .button {
   border-radius: 4px;
-  background-color: #f4511e;
+  background-color: #5FCCD6;
   border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 28px;
   padding: 20px;
-  width: 200px;
+  width: 250px;
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;
@@ -2868,6 +2868,15 @@ a {
 .button:hover span:after {
   opacity: 1;
   right: 0;
+}
+
+.button_cta {
+  background-color: #5FCCD6;
+  border-radius: 4px;
+  border: none;
+  text-align: center;
+  width: 50px;
+  padding: 20px;
 }
 
 #home-jumbotron {
@@ -3137,41 +3146,14 @@ section::before {
   border: 1px dotted olivedrab;
 }
 
-span,
-.global > div {
+.fl {
   padding: 0.8em;
   background: #5FCCD6;
   color: #fff;
-}
-
-span {
   display: inline-block;
-}
-
-span + span {
   opacity: 0.8;
 }
 
-span + span + span {
-  opacity: 0.6;
-}
-
-/*
- line safe
- */
-/*
-you can keep it
-
-h1, h2 {
-  margin: 0 0 1em;
-  color: #345;
-  text-align: center;
-  font-family: georgia, "trebuchet ms", arial, serif !important;
-}
-h2 {
-  font-weight: normal;
-}
-*/
 .toc {
   counter-reset: toc;
   padding-left: 0;
@@ -3232,6 +3214,43 @@ h2 {
     top: 14rem;
   }
 }
+#app-jumbotron {
+  padding: 100px 0;
+}
+#app-jumbotron h1 {
+  margin-bottom: 50px;
+  text-align: center;
+}
+
+#app-icons {
+  margin-bottom: 100px;
+}
+
+#app-content {
+  padding: 50px 0;
+  margin: 20px;
+  background-color: #e6ebe7;
+  height: 500px;
+  margin-bottom: 200px;
+  border-radius: 15px;
+  overflow: hidden;
+  box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+  transform: scale(1);
+  transition: 0.2s ease all;
+}
+#app-content .item {
+  margin-bottom: 100px;
+}
+#app-content .item .info {
+  padding: 15px;
+}
+#app-content .item img {
+  max-width: 400px;
+  margin: auto;
+  display: block;
+  width: 100%;
+}
+
 .section {
   padding: 75px 0;
 }
