@@ -3105,18 +3105,20 @@ a {
   fill: #5FCCD6;
 }
 
+/*
 section::before {
   position: absolute;
   top: -1.8em;
   left: 1em;
 }
 
+
 .row-stuff {
   margin-left: 2rem;
   color: #555;
   font-size: 1.2em;
 }
-
+*/
 /* deco */
 .global-container,
 .global {

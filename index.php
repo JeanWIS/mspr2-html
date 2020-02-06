@@ -1,6 +1,6 @@
 <?php include_once 'includes/header.php'; ?>
 
-<section id="home-jumbotron">
+<section id="home-jumbotron">   <!-- Page: Home & Name of the Section: jumbotron  -->
     <div class="container">
         <div class="grid-2">
             <div>
@@ -13,19 +13,21 @@
                     deserunt
                     mollit anim id est laborum.
                 </p>
+                <button class="button"><span>Hover </span></button>
+
             </div>
             <img src="public/images/discussion.jpg">
         </div>
     </div>
 </section>
 
-<section id="home-video">
+<section id="home-video">  <!-- Page: Home & Name of the Section: video  -->
     <div class="container">
         <img src="public/images/video.png" alt="">
     </div>
 </section>
 
-<section id="home-brands">
+<section id="home-brands">  <!-- Page: Home & Name of the Section: brands  -->
     <div class="container">
         <h2>Rejoiniez une communité de plus d'un million d'entreprise qui nous font confiance</h2>
         <div class="grid-4 has-gutter">
@@ -41,7 +43,7 @@
     </div>
 </section>
 
-<section id="home-content">
+<section id="home-content">   <!-- Page: Home & Name of the Section: content  -->
     <div class="container">
 
         <div class="item grid-2">
