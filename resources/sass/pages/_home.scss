@@ -1,50 +1,49 @@
-
-#jumbotron {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  width: 100vw;
+#home-jumbotron {
   color: $secondary;
   background-color: $primary;
-  height: 800px;
-  font: $myFont;
+  padding: 100px 0;
 }
 
-.text1 {
-  width: 50%;
-  margin-left: 40px;
-  margin-right: 20px;
+#home-video {
+  padding: 50px 0;
+
+  img {
+    border-radius: 15px;
+    overflow: hidden;
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0.2);
+    transform: scale(1);
+    transition: .2s ease all;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: .2s ease all;
+    }
+  }
 }
 
-.companies {
-  margin: 40px;
+#home-brands {
+  padding: 50px 0;
+  color: $light;
   background-color: $dark;
-  color: $light;
-  height: 400px;
-}
-
-.companies h2 {
   text-align: center;
-  padding-bottom: 20px;
-  padding-top: 40px
 }
 
-.testimonials {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background-color: $secondary;
-  color: $light;
-  height: 400px;
-}
+#home-content {
+  padding: 50px 0;
 
-.testimonials .text1 {
-  font-size: 28px;
-  width: 100%;
-}
+  .item {
+    margin-bottom: 100px;
 
-.testimonials img {
-  border-radius: 400px;
-  width: 30%;
-  margin-left: 20%;
+    .info {
+      padding: 15px;
+    }
+
+    img {
+      max-width: 400px;
+      margin: auto;
+      display: block;
+      width: 100%;
+    }
+
+  }
 }

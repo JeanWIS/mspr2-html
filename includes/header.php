@@ -11,7 +11,7 @@
 </head>
 <body>
 
-<header>
+<header id="header">
     <nav>
         <a class="site-logo" href="/mspr2-html/"> <img src="public/images/logo.png" alt="Logo" ></a>
         <ul id="navig">
@@ -22,5 +22,6 @@
         </ul>
     </nav>
 </header>
+
 <main id="main">
 

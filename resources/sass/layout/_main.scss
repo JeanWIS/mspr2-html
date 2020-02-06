@@ -1,15 +1,33 @@
 * {
-  box-sizing: border-box;
-  text-decoration: none;
-  scroll-behavior: smooth;
-}
-
-body {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
   font-family: Consolas, serif;
+}
+
+html{
+  font-size: 10px;
+  font-family: "nimbus-sans-condensed", sans-serif;
 }
 
 p {
   font-size: 20px;
+}
+
+a{
+  text-decoration: none;
+  color: #eee;
+}
+
+#main {
+  position: relative;
+  padding-top: 121px;
+}
+
+.container{
+  max-width: 1200px;
+  width: 100%;
+  padding: 0 15px;
+  margin: auto;
 }
