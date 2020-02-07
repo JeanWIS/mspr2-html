@@ -16,8 +16,8 @@
         <a class="site-logo" href="/mspr2-html/"> <img src="public/images/logo.png" alt="Logo" ></a>
         <ul id="navig">
             <li id="image1"><a href="/mspr2-html/">Accueil</a></li>
-            <li><a href="contact.php">contact.php</a></li>
-            <li><a href="blog.php">blog.php</a></li>
+            <li><a href="contact.php">Contact</a></li>
+            <li><a href="blog.php">À propos de nous</a></li>
             <li><a href="gettheapp.php" style="margin-right: 20px" class="button_cta" > Télécharger l'app</a></li>
         </ul>
     </nav>
