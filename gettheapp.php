@@ -2,7 +2,7 @@
 
 <section id="app-jumbotron">
     <div class="container">
-        <h1> Get The Vocally App </h1>
+        <h1> Obtenir la nouvelle application Vocally </h1>
         <img src="public/images/downloadapp.png">
     </div>
 </section>

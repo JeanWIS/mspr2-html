@@ -8,7 +8,7 @@
                 <p>Vocally vous emmenera dans le futur, cette toute nouvelle technologie changera vos
                     habitudes et ainsi utiliser la communication du futur. Alors dites adieu à Google traduction,
                     vocally l’application qui changera votre façon de communiquer ! <br><br><br>
-                    <!-- 3 petits br qui se promène -->
+                    <!-- 3 petits br qui se promènent -->
                 </p>
                 <button class="button"><span>En savoir plus  </span></button>
             </div>
@@ -45,7 +45,7 @@
         <div class="item grid-2">
             <div class="info">
                 <h2>Des conversations de qualité</h2>
-                <p>Vocally s'adapte à votre timbre de voix et la vitesse pour une traduction toujours aussi parfaite,
+                <p>Contrairement aux concurents <a href="comparatif.php" style="color: blue"> voir article</a>, Vocally s'adapte à votre timbre de voix et la vitesse pour une traduction toujours aussi parfaite,
                     grâce à une technologie spécifique developper spécialement pour l'utilisateur, avec vocally plus
                     l'utilisation est fréquente plus l'application s'améliore avec des mises à jour de plus en plus
                     souvent!, Grâce à de nombreuses technologie vocally est capable de reproduire votre voix</p>
@@ -57,7 +57,7 @@
 
         <div class="item grid-2">
             <div class="info">
-                <h2>Des conversations de qualité</h2>
+                <h2>Un large choix de langues</h2>
                 <p>Cette application ne manquera pas de vous surprendre avec la fonctionnalité des choix de langues,
                     elle integre aussi l'accent pour une meilleur comprehension,cette application est revolutionnaire
                     car vouv vous ameliorer de jour en jour avec vocally. Vocally vous permettra non seulement de
@@ -69,7 +69,7 @@
 
         <div class="item grid-2">
             <div class="info">
-                <h2>Un large choix de langues</h2>
+                <h2>Des traductions instantanées</h2>
                 <p>Vocally vous prouvera que les autres traducteur du marché sont depassé et vous permettra d’entrevoir
                     le futur avec celle ci, ceci n’est pas une blague au contraire ceci est bien réelle, grâce à vous
                     “utilisateur” chaque jour depuis son utilisation vous nous aiderer à l’améliorer. Avec Vocally

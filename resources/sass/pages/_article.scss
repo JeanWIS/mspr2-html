@@ -1,0 +1,25 @@
+#article-jumbotron {
+  height: 400px;
+  width: 100%;
+  background-color: $black;
+
+  h1 {
+    color: $black;
+  }
+
+  #image {
+    width: 50%;
+    margin-top: 100px;
+    margin-bottom: 100px;
+
+    img {
+      border-radius: 200px;
+    }
+  }
+}
+
+#article-table {
+  padding: 20rem;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
